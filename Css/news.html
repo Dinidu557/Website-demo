@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nicola Science | News</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #001f33, #004d66);
+      color: #ffffff;
+    }
+
+    nav {
+      background-color: #002b4d;
+      padding: 15px 30px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #00eaff;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #00eaff;
+      font-size: 2.8rem;
+      margin-bottom: 40px;
+    }
+
+    .news-card {
+      background-color: #004466;
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .news-card:hover {
+      transform: translateY(-5px);
+      background-color: #005c87;
+    }
+
+    .news-card h2 {
+      color: #00cfff;
+      margin-bottom: 15px;
+    }
+
+    .news-card p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #e0f7ff;
+    }
+
+    .read-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #00cfff;
+      color: #002b4d;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .read-button:hover {
+      background-color: #00aacc;
+    }
+
+    footer {
+      background-color: #001f3f;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #ccc;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        gap: 15px;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">🏠 Home</a></li>
+      <li><a href="topics.html">📚 Topics</a></li>
+      <li><a href="about.html">ℹ️ About</a></li>
+      <li><a href="news.html">📰 News</a></li>
+      <li><a href="experiment.html">🧪 Experiments</a></li>
+    </ul>
+  </nav>
+
+  <!-- News Content -->
+  <div class="container">
+    <h1>Latest Science News</h1>
+
+    <div class="news-card">
+      <h2>NASA Discovers New Earth-Like Planet 🌍</h2>
+      <p>
+        A newly discovered exoplanet in the habitable zone could potentially support life. This breakthrough offers new hope in the search for extraterrestrial life.
+      </p>
+      <a class="read-button" href="https://www.nasa.gov/news" target="_blank">Read More</a>
+    </div>
+
+    <div class="news-card">
+      <h2>Breakthrough in Nuclear Fusion ⚛️</h2>
+      <p>
+        Scientists achieved a major milestone in sustainable energy by generating more power from nuclear fusion than was used to start the reaction — a clean energy future may be near!
+      </p>
+      <a class="read-button" href="https://www.sciencenews.org" target="_blank">Read More</a>
+    </div>
+
+    <div class="news-card">
+      <h2>AI Predicts Protein Structures with High Accuracy 🤖</h2>
+      <p>
+        DeepMind’s AlphaFold is revolutionizing biology by predicting protein shapes, helping with drug discovery, and advancing genetic research.
+      </p>
+      <a class="read-button" href="https://www.nature.com/news" target="_blank">Read More</a>
+    </div>
+
+    <!-- More News Cards -->
+    <div class="news-card">
+      <h2>Exploring Mars: New Rover Mission 🚀</h2>
+      <p>
+        NASA's latest rover mission is exploring the surface of Mars, analyzing soil samples and providing invaluable data about the planet's potential for life.
+      </p>
+      <a class="read-button" href="https://mars.nasa.gov" target="_blank">Read More</a>
+    </div>
+
+    <div class="news-card">
+      <h2>Scientists Achieve Quantum Entanglement at Room Temperature 🌀</h2>
+      <p>
+        Researchers have achieved a breakthrough in quantum computing by maintaining entangled particles at room temperature, paving the way for faster and more efficient quantum computers.
+      </p>
+      <a class="read-button" href="https://www.sciencedaily.com/releases" target="_blank">Read More</a>
+    </div>
+
+    <div class="news-card">
+      <h2>Plastic-Eating Enzyme Breakthrough ♻️</h2>
+      <p>
+        Scientists have discovered a new enzyme capable of breaking down plastic, offering a potential solution to the global plastic waste crisis.
+      </p>
+      <a class="read-button" href="https://www.sciencenews.org" target="_blank">Read More</a>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Nicola Science — Powered by Curiosity
+  </footer>
+
+</body>
+</html>

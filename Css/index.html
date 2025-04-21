@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nicola Science | Home</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #001f3f, #005082);
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav {
+      background-color: #001c33;
+      padding: 15px 30px;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #00cfff;
+    }
+
+    .hero {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      margin-bottom: 20px;
+      color: #00d4ff;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 40px;
+    }
+
+    .btn-start {
+      background-color: #00d4ff;
+      color: #001f3f;
+      padding: 15px 35px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+    }
+
+    .btn-start:hover {
+      background-color: #00a6c2;
+    }
+
+    footer {
+      background-color: #001c33;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">🏠 Home</a></li>
+      <li><a href="topics.html">📚 Topics</a></li>
+      <li><a href="about.html">ℹ️ About</a></li>
+      <li><a href="news.html">📰 News</a></li>
+      <li><a href="experiment.html">🧪 Experiments</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Welcome to Nicola Science</h1>
+    <p>Explore the universe of science — from atoms to galaxies. Start your journey with powerful topics, exciting experiments, and cutting-edge discoveries.</p>
+    <a href="topics.html" class="btn-start">Start Learning</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Nicola Science — Empowering Future Scientists
+  </footer>
+
+</body>
+</html>

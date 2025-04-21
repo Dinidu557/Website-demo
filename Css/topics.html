@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nicola Science | Topics</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #001f3f, #003366);
+      color: #ffffff;
+      padding-bottom: 50px;
+    }
+
+    nav {
+      background-color: #001c33;
+      padding: 15px 30px;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #00cfff;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    .heading {
+      text-align: center;
+      font-size: 2.8rem;
+      margin-bottom: 40px;
+      color: #00d4ff;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background-color: #002c4d;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+    }
+
+    .card h3 {
+      color: #00b7ff;
+      margin-bottom: 10px;
+      font-size: 1.4rem;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #d0eaff;
+      line-height: 1.5;
+    }
+
+    .read-more-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #00cfff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .read-more-btn:hover {
+      background-color: #00a8cc;
+    }
+
+    footer {
+      background-color: #001c33;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #ccc;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">🏠 Home</a></li>
+      <li><a href="topics.html">📚 Topics</a></li>
+      <li><a href="about.html">ℹ️ About</a></li>
+      <li><a href="news.html">📰 News</a></li>
+      <li><a href="experiment.html">🧪 Experiments</a></li>
+    </ul>
+  </nav>
+
+  <!-- Topics Section -->
+  <div class="container">
+    <h1 class="heading">Explore Science Topics</h1>
+    <div class="grid">
+      <div class="card">
+        <h3>Physics</h3>
+        <p>Understand the laws of motion, energy, gravity, and the secrets of the universe with engaging physics concepts.</p>
+        <a href="https://en.wikipedia.org/wiki/Physics" class="read-more-btn" target="_blank">Read More</a>
+      </div>
+      <div class="card">
+        <h3>Chemistry</h3>
+        <p>Explore the reactions of atoms and molecules, the periodic table, acids, bases, and the chemistry of life.</p>
+        <a href="https://www.chemistryworld.com/" class="read-more-btn" target="_blank">Read More</a>
+      </div>
+      <div class="card">
+        <h3>Biology</h3>
+        <p>Dive into the study of life, from tiny cells to complex organisms, and learn about ecosystems and evolution.</p>
+        <a href="https://www.ncbi.nlm.nih.gov/pmc/" class="read-more-btn" target="_blank">Read More</a>
+      </div>
+      <div class="card">
+        <h3>Astronomy</h3>
+        <p>Discover planets, stars, galaxies, black holes, and the mysteries of the cosmos beyond Earth.</p>
+        <a href="https://www.nasa.gov/astronomy" class="read-more-btn" target="_blank">Read More</a>
+      </div>
+      <div class="card">
+        <h3>Robotics & AI</h3>
+        <p>Learn how machines think, move, and learn with cutting-edge robotics and artificial intelligence topics.</p>
+        <a href="https://www.robotics.org/" class="read-more-btn" target="_blank">Read More</a>
+      </div>
+      <div class="card">
+        <h3>Environmental Science</h3>
+        <p>Understand the impact of humans on the planet and the science behind climate change, conservation, and sustainability.</p>
+        <a href="https://www.environmentalscience.org/" class="read-more-btn" target="_blank">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Nicola Science — Explore. Discover. Invent.
+  </footer>
+
+</body>
+</html>
